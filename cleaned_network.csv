@@ -1,0 +1,758 @@
+Source,Target,Count,Type,Weight
+Charlotte Church,Parliament Square,258,Undirected,0.028536184
+National Health Service,Parliament Square,238,Undirected,0.026324077
+Parliament Square,Royal Bank,230,Undirected,0.025439234
+Parliament Square,People Assembly Against Austerity,91,Undirected,0.010065088
+Jeremy Corbyn,Parliament Square,282,Undirected,0.007787858
+David Bowie,Parliament Square,228,Undirected,0.006296566
+Alex Diaz,Parliament Square,141,Undirected,0.003893929
+Parliament Square,People Assembly,33,Undirected,0.003649977
+David Cameron,Parliament Square,116,Undirected,0.003203516
+Labour Party,Parliament Square,22,Undirected,0.002433318
+Margaret Thatcher,Parliament Square,87,Undirected,0.002402637
+Green Party,Parliament Square,16,Undirected,0.001769686
+Andy Burnham,Labour Party,3614,Undirected,0.099806097
+Ed Miliband,Labour Party,2875,Undirected,0.07939749
+Jeremy Corbyn,Labour Party,2027,Undirected,0.055978682
+Andy Burnham,Liz Kendall,6822,Undirected,0.055408799
+Andy Burnham,Ed Miliband,5217,Undirected,0.042372868
+Ed Miliband,Liz Kendall,5105,Undirected,0.041463196
+Harriet Harman,Labour Party,1269,Undirected,0.035045362
+National Executive Committee,Twitter,278,Undirected,0.030748292
+Labour Party,Scottish National Party,269,Undirected,0.029752843
+Charlotte Church,National Health Service,252,Undirected,0.027872552
+Labour Party,Labour Party,251,Undirected,0.027761947
+National Health Service,Royal Bank,240,Undirected,0.026545288
+Charlotte Church,Royal Bank,238,Undirected,0.026324077
+David Cameron,Labour Party,933,Undirected,0.025766211
+Andy Burnham,Jeremy Corbyn,3044,Undirected,0.024723598
+Andy Burnham,David Cameron,3021,Undirected,0.02453679
+Chuka Umunna,Labour Party,870,Undirected,0.024026371
+Institute For Fiscal Studies,National Living Wage,207,Undirected,0.022895311
+Labour Party,Queen Mary University Of London,197,Undirected,0.021789257
+Labour Party,Scottish Parliament,196,Undirected,0.021678652
+Harriet Harman,Liz Kendall,2637,Undirected,0.021417913
+Chuka Umunna,Liz Kendall,2630,Undirected,0.021361059
+Andy Burnham,Harriet Harman,2581,Undirected,0.020963077
+Gordon Brown,Labour Party,755,Undirected,0.020850471
+Liz Kendall,Mary Creagh,2485,Undirected,0.020183358
+International Development,Parliamentary Standards Authority,182,Undirected,0.020130177
+Andy Burnham,Mary Creagh,2454,Undirected,0.019931573
+Jeremy Corbyn,Liz Kendall,2423,Undirected,0.019679789
+David Cameron,Ed Miliband,2400,Undirected,0.019492981
+European Union,Labour Party,175,Undirected,0.019355939
+David Cameron,Liz Kendall,2373,Undirected,0.019273685
+Labour Party,Office For Budget Responsibility,174,Undirected,0.019245334
+People Assembly,Charlotte Church,172,Undirected,0.019024123
+Chuka Umunna,Ed Miliband,2317,Undirected,0.018818849
+Andy Burnham,Chuka Umunna,2251,Undirected,0.018282792
+Ed Miliband,Jeremy Corbyn,2250,Undirected,0.01827467
+Andy Burnham,Twitter,656,Undirected,0.018116436
+Labour Party,Twitter,162,Undirected,0.017918069
+Campaign For Nuclear Disarmament,Charlotte Church,162,Undirected,0.017918069
+Campaign For Nuclear Disarmament,People Assembly,161,Undirected,0.017807464
+Charlotte Church,People Assembly Against Austerity,159,Undirected,0.017586253
+Ed Miliband,Harriet Harman,2125,Undirected,0.017259411
+Labour Party,National Living Wage,155,Undirected,0.017143832
+Labour Party,People Assembly,154,Undirected,0.017033226
+Andy Burnham,Parliamentary Standards Authority,583,Undirected,0.01610043
+Electoral Reform Society,Labour Party,145,Undirected,0.016037778
+Liz Kendall,Tony Blair,1950,Undirected,0.015838047
+David Cameron,Parliamentary Standards Authority,573,Undirected,0.015824265
+Campaign For Nuclear Disarmament,Labour Party,143,Undirected,0.015816567
+David Cameron,Twitter,565,Undirected,0.015603333
+European Union,Scottish National Party,139,Undirected,0.015374146
+George Osborne,Labour Party,553,Undirected,0.015271935
+Andy Burnham,Tony Blair,1831,Undirected,0.01487152
+Liz Kendall,Twitter,538,Undirected,0.014857687
+Liz Kendall,Labour Party,537,Undirected,0.01483007
+Labour Party,Charlotte Church,131,Undirected,0.014489303
+Labour Party,Reuters,130,Undirected,0.014378698
+Green Party,Labour Party,130,Undirected,0.014378698
+Andy Burnham,Labour Party,512,Undirected,0.014139657
+Jim Murphy,Labour Party,510,Undirected,0.014084424
+European Parliament,Twitter,126,Undirected,0.013936276
+David Miliband,Labour Party,489,Undirected,0.013504477
+Ed Miliband,Tony Blair,1643,Undirected,0.01334457
+Ed Miliband,Labour Party,483,Undirected,0.013338778
+Gordon Brown,Liz Kendall,1612,Undirected,0.013092786
+Ed Miliband,Twitter,471,Undirected,0.01300738
+Ed Miliband,Mary Creagh,1587,Undirected,0.012889734
+Liz Kendall,Parliamentary Standards Authority,462,Undirected,0.012758831
+European Parliament,Green Party,114,Undirected,0.012609012
+European Parliament,Investment Partnership,113,Undirected,0.012498406
+David Cameron,European Union,450,Undirected,0.012427433
+Facebook,Labour Party,110,Undirected,0.01216659
+Queen Mary University Of London,Scottish National Party,109,Undirected,0.012055985
+Chuka Umunna,Harriet Harman,1477,Undirected,0.011996306
+Ed Miliband,Scottish National Party,415,Undirected,0.011460855
+Andy Burnham,George Osborne,1401,Undirected,0.011379028
+George Osborne,National Living Wage,398,Undirected,0.010991374
+David Cameron,Jeremy Corbyn,1353,Undirected,0.010989168
+Labour Party,Scottish National Party,99,Undirected,0.010949931
+Andy Burnham,European Union,396,Undirected,0.010936141
+Ed Miliband,Gordon Brown,1330,Undirected,0.01080236
+Harriet Harman,Twitter,387,Undirected,0.010687593
+Andy Burnham,Gordon Brown,1305,Undirected,0.010599309
+National Health Service,People Assembly Against Austerity,95,Undirected,0.01050751
+Charlotte Church,Labour Party,95,Undirected,0.01050751
+Jeremy Corbyn,National Living Wage,380,Undirected,0.010494277
+People Assembly Against Austerity,Royal Bank,94,Undirected,0.010396904
+Charlotte Church,Green Party,94,Undirected,0.010396904
+Jeremy Corbyn,Labour Party,371,Undirected,0.010245728
+Chuka Umunna,Twitter,370,Undirected,0.010218112
+Nicky Morgan,Parliamentary Standards Authority,368,Undirected,0.010162879
+David Cameron,George Osborne,1249,Undirected,0.010144472
+Tony Blair,Twitter,367,Undirected,0.010135262
+Green Party,Scottish National Party,91,Undirected,0.010065088
+Liz Kendall,National Executive Committee,362,Undirected,0.00999718
+Gordon Brown,Tony Blair,1226,Undirected,0.009957665
+Harriet Harman,National Living Wage,356,Undirected,0.00983148
+Chuka Umunna,National Executive Committee,356,Undirected,0.00983148
+Gordon Brown,Twitter,348,Undirected,0.009610548
+Chuka Umunna,Gordon Brown,1177,Undirected,0.009559683
+Ed Miliband,National Executive Committee,345,Undirected,0.009527699
+European Union,Green Party,86,Undirected,0.009512061
+David Cameron,Harriet Harman,1170,Undirected,0.009502828
+Harriet Harman,National Executive Committee,343,Undirected,0.009472466
+Andy Burnham,National Executive Committee,341,Undirected,0.009417233
+George Osborne,Liz Kendall,1159,Undirected,0.009413486
+Ed Miliband,European Union,334,Undirected,0.009223917
+Andy Burnham,Scottish National Party,332,Undirected,0.009168684
+Dan Jarvis,National Executive Committee,327,Undirected,0.009030601
+Andy Burnham,National Living Wage,326,Undirected,0.009002985
+Dan Jarvis,Twitter,325,Undirected,0.008975368
+International Rescue Committee,Labour Party,81,Undirected,0.008959035
+Ed Miliband,George Osborne,1103,Undirected,0.008958649
+John Mann,Twitter,323,Undirected,0.008920135
+David Cameron,National Living Wage,320,Undirected,0.008837286
+Diane Abbott,Labour Party,318,Undirected,0.008782053
+CNN,Labour Party,79,Undirected,0.008737824
+Chuka Umunna,Tony Blair,1065,Undirected,0.00865001
+Green Party,Twitter,78,Undirected,0.008627219
+Harriet Harman,Tony Blair,1057,Undirected,0.008585034
+My Regeneration,Prince Regeneration,77,Undirected,0.008516613
+Affordable Rural Housing Initiative,Supreme Court,77,Undirected,0.008516613
+Gordon Brown,National Executive Committee,305,Undirected,0.008423038
+Affordable Rural Housing Initiative,My Regeneration,76,Undirected,0.008406008
+Labour Party,Labour Party,76,Undirected,0.008406008
+Affordable Rural Housing Initiative,Prince Regeneration,76,Undirected,0.008406008
+Prince Regeneration,Supreme Court,76,Undirected,0.008406008
+My Regeneration,Supreme Court,76,Undirected,0.008406008
+David Miliband,National Executive Committee,304,Undirected,0.008395422
+David Miliband,Twitter,302,Undirected,0.008340188
+CNN,International Rescue Committee,75,Undirected,0.008295402
+Margaret Hodge,Labour Party,300,Undirected,0.008284955
+David Cameron,National Executive Committee,296,Undirected,0.008174489
+John Mann,National Executive Committee,295,Undirected,0.008146873
+George Osborne,Jeremy Corbyn,1002,Undirected,0.00813832
+Tom Watson,Twitter,294,Undirected,0.008119256
+Gordon Brown,Harriet Harman,996,Undirected,0.008089587
+Andy Burnham,David Miliband,983,Undirected,0.007984
+David Miliband,Ed Miliband,973,Undirected,0.00790278
+Parliamentary Standards Authority,Twitter,71,Undirected,0.007852981
+Facebook,Twitter,71,Undirected,0.007852981
+George Osborne,Harriet Harman,957,Undirected,0.007772826
+Harriet Harman,Jeremy Corbyn,954,Undirected,0.00774846
+Office For Budget Responsibility,Labour Party,70,Undirected,0.007742376
+David Cameron,Green Party,280,Undirected,0.007732625
+David Miliband,Liz Kendall,938,Undirected,0.007618507
+Liz Kendall,Scottish National Party,274,Undirected,0.007566926
+Labour Party,Labour Party,68,Undirected,0.007521165
+Chris Leslie,Labour Party,271,Undirected,0.007484076
+Jeremy Corbyn,National Health Service,268,Undirected,0.007401227
+Chuka Umunna,Dan Jarvis,909,Undirected,0.007382967
+Andy Burnham,Tom Watson,900,Undirected,0.007309868
+Green Party,People Assembly Against Austerity,66,Undirected,0.007299954
+David Cameron,Tony Blair,895,Undirected,0.007269258
+Ed Miliband,National Living Wage,261,Undirected,0.007207911
+Dan Jarvis,Ed Miliband,887,Undirected,0.007204281
+Liz Kendall,Tom Watson,886,Undirected,0.007196159
+European Union,Green Mps In Parliament,65,Undirected,0.007189349
+Green Mps In Parliament,Green Party,65,Undirected,0.007189349
+Labour Party,People Assembly Against Austerity,64,Undirected,0.007078743
+Green Mps In Parliament,Scottish National Party,64,Undirected,0.007078743
+Dan Jarvis,Liz Kendall,864,Undirected,0.007017473
+Ed Miliband,Tom Watson,848,Undirected,0.00688752
+Jeremy Corbyn,People Assembly,246,Undirected,0.006793663
+Jeremy Corbyn,Royal Bank,242,Undirected,0.006683197
+David Bowie,National Health Service,240,Undirected,0.006627964
+David Bowie,Royal Bank,239,Undirected,0.006600348
+Chuka Umunna,David Cameron,810,Undirected,0.006578881
+Andy Burnham,Dan Jarvis,799,Undirected,0.006489538
+Jeremy Corbyn,Scottish National Party,234,Undirected,0.006462265
+Associated Press,Labour Party,57,Undirected,0.006304506
+Douglas Alexander,Labour Party,226,Undirected,0.006241333
+Andy Burnham,Stella Creasy,762,Undirected,0.006189022
+Charlotte Church,People Assembly,55,Undirected,0.006083295
+Green Party,Investment Partnership,55,Undirected,0.006083295
+Investment Partnership,Twitter,54,Undirected,0.00597269
+George Osborne,Institute For Fiscal Studies,214,Undirected,0.005909935
+Ed Miliband,Scottish Parliament,213,Undirected,0.005882318
+Andy Burnham,Len Mccluskey,724,Undirected,0.005880383
+European Union,Reuters,53,Undirected,0.005862084
+Liz Kendall,Stella Creasy,715,Undirected,0.005807284
+IPCC,Justice Campaign,52,Undirected,0.005751479
+Labour Party,National Insurance,52,Undirected,0.005751479
+Dan Jarvis,Labour Party,208,Undirected,0.005744236
+Chuka Umunna,David Miliband,704,Undirected,0.005717941
+Len Mccluskey,People Assembly,207,Undirected,0.005716619
+Harriet Harman,Institute For Fiscal Studies,206,Undirected,0.005689003
+Andy Burnham,Scottish Parliament,206,Undirected,0.005689003
+Labour Party,National Health Service,51,Undirected,0.005640874
+Associated Press,Queen Mary University Of London,51,Undirected,0.005640874
+Gordon Brown,Scottish National Party,203,Undirected,0.005606153
+Ed Miliband,Queen Mary University Of London,203,Undirected,0.005606153
+Andy Burnham,Queen Mary University Of London,202,Undirected,0.005578537
+Chuka Umunna,Mary Creagh,686,Undirected,0.005571744
+Liz Kendall,Queen Mary University Of London,201,Undirected,0.00555092
+Gordon Brown,Queen Mary University Of London,200,Undirected,0.005523304
+Andy Burnham,Jim Murphy,677,Undirected,0.005498645
+Andy Burnham,International Development,199,Undirected,0.005495687
+John Mann,Labour Party,197,Undirected,0.005440454
+Associated Press,Scottish National Party,49,Undirected,0.005419663
+David Cameron,Gordon Brown,662,Undirected,0.005376814
+Liz Kendall,Office For Budget Responsibility,192,Undirected,0.005302371
+Ed Miliband,Stella Creasy,649,Undirected,0.005271227
+Jeremy Corbyn,Mary Creagh,647,Undirected,0.005254983
+Jeremy Corbyn,Tony Blair,647,Undirected,0.005254983
+Dan Jarvis,Harriet Harman,634,Undirected,0.005149396
+David Cameron,International Development,186,Undirected,0.005136672
+Chuka Umunna,Labour Party,185,Undirected,0.005109056
+European Union,Twitter,46,Undirected,0.005087847
+Jeremy Corbyn,Charlotte Church,183,Undirected,0.005053823
+Liz Kendall,Labour Party,180,Undirected,0.004970973
+Andy Burnham,Office For Budget Responsibility,179,Undirected,0.004943357
+Liz Kendall,Margaret Beckett,608,Undirected,0.004938222
+Len Mccluskey,Charlotte Church,175,Undirected,0.004832891
+Hilary Benn,Labour Party,175,Undirected,0.004832891
+Dan Jarvis,Tony Blair,592,Undirected,0.004808269
+Jeremy Corbyn,Office For Budget Responsibility,174,Undirected,0.004805274
+Chuka Umunna,Tom Watson,582,Undirected,0.004727048
+Ed Miliband,Office For Budget Responsibility,171,Undirected,0.004722425
+Hilary Benn,Labour Party,171,Undirected,0.004722425
+Alastair Campbell,Twitter,171,Undirected,0.004722425
+Caroline Lucas,People Assembly,170,Undirected,0.004694808
+Jeremy Corbyn,People Assembly Against Austerity,170,Undirected,0.004694808
+David Cameron,Scottish National Party,169,Undirected,0.004667192
+Sam Fairbairn,Charlotte Church,167,Undirected,0.004611959
+Dan Jarvis,Gordon Brown,563,Undirected,0.004572729
+Caroline Lucas,Labour Party,165,Undirected,0.004556725
+Andy Burnham,Diane Abbott,556,Undirected,0.004515874
+Kate Hudson,Charlotte Church,163,Undirected,0.004501492
+David Cameron,People Assembly Against Austerity,162,Undirected,0.004473876
+Kate Hudson,People Assembly,161,Undirected,0.004446259
+Ed Miliband,Jim Murphy,545,Undirected,0.004426531
+Ed Miliband,Len Mccluskey,545,Undirected,0.004426531
+David Cameron,Institute For Fiscal Studies,160,Undirected,0.004418643
+Alan Johnson,Gordon Brown,544,Undirected,0.004418409
+David Cameron,Tom Watson,542,Undirected,0.004402165
+Liz Kendall,Scottish Parliament,158,Undirected,0.00436341
+Dan Jarvis,David Cameron,534,Undirected,0.004337188
+Len Mccluskey,Liz Kendall,531,Undirected,0.004312822
+Mary Creagh,Tony Blair,524,Undirected,0.004255968
+David Miliband,Harriet Harman,522,Undirected,0.004239723
+Andy Burnham,John Mann,521,Undirected,0.004231601
+Harriet Harman,Mary Creagh,517,Undirected,0.004199113
+David Miliband,Gordon Brown,517,Undirected,0.004199113
+Caroline Lucas,Charlotte Church,152,Undirected,0.004197711
+Andy Burnham,Electoral Reform Society,152,Undirected,0.004197711
+Andy Burnham,Institute For Fiscal Studies,151,Undirected,0.004170094
+David Cameron,European Parliament,151,Undirected,0.004170094
+Diane Abbott,National Living Wage,150,Undirected,0.004142478
+Ed Miliband,Electoral Reform Society,150,Undirected,0.004142478
+Alastair Campbell,National Executive Committee,150,Undirected,0.004142478
+John Mann,Labour Party,150,Undirected,0.004142478
+Gordon Brown,Jeremy Corbyn,508,Undirected,0.004126014
+Andy Burnham,Facebook,149,Undirected,0.004114861
+Jeremy Corbyn,Twitter,149,Undirected,0.004114861
+Green Party,Reuters,37,Undirected,0.004092399
+Diane Abbott,Jeremy Corbyn,502,Undirected,0.004077282
+Andy Burnham,European Parliament,147,Undirected,0.004059628
+Gordon Brown,Labour Party,146,Undirected,0.004032012
+David Cameron,National Health Service,146,Undirected,0.004032012
+Charlotte Church,Reuters,36,Undirected,0.003981793
+Alan Johnson,Supreme Court,144,Undirected,0.003976779
+Alex Diaz,Charlotte Church,141,Undirected,0.003893929
+Chuka Umunna,European Union,141,Undirected,0.003893929
+Alex Diaz,National Health Service,141,Undirected,0.003893929
+Alex Diaz,Royal Bank,141,Undirected,0.003893929
+David Cameron,Mary Creagh,477,Undirected,0.00387423
+Foreign Office,International Development,35,Undirected,0.003871188
+Ed Miliband,John Mann,473,Undirected,0.003841742
+David Miliband,Labour Party,139,Undirected,0.003838696
+Alan Johnson,Liz Kendall,472,Undirected,0.00383362
+David Cameron,Reuters,138,Undirected,0.00381108
+Hilary Benn,Liz Kendall,469,Undirected,0.003809253
+Andy Burnham,Rachel Reeves,464,Undirected,0.003768643
+Jim Murphy,Liz Kendall,464,Undirected,0.003768643
+Foreign Office,Parliamentary Standards Authority,34,Undirected,0.003760582
+Liz Kendall,Nicky Morgan,463,Undirected,0.003760521
+Ed Miliband,Green Party,135,Undirected,0.00372823
+Andy Burnham,Nicky Morgan,459,Undirected,0.003728033
+John Mann,Liz Kendall,455,Undirected,0.003695544
+Andy Burnham,British Medical Association,133,Undirected,0.003672997
+Alan Johnson,Chuka Umunna,450,Undirected,0.003654934
+European Union,Scottish Parliament,33,Undirected,0.003649977
+David Cameron,Nicky Morgan,446,Undirected,0.003622446
+Harriet Harman,Margaret Beckett,444,Undirected,0.003606202
+Andy Burnham,Reuters,130,Undirected,0.003590147
+Alan Johnson,Harriet Harman,439,Undirected,0.003565591
+Kate Hudson,Labour Party,129,Undirected,0.003562531
+Ed Miliband,Hilary Benn,438,Undirected,0.003557469
+Gordon Brown,John Mann,437,Undirected,0.003549347
+Labour Party,National Executive Committee,32,Undirected,0.003539372
+David Miliband,John Mann,432,Undirected,0.003508737
+Gordon Brown,Supreme Court,127,Undirected,0.003507298
+David Miliband,Tom Watson,428,Undirected,0.003476248
+David Cameron,David Miliband,422,Undirected,0.003427516
+Boris Johnson,European Union,124,Undirected,0.003424448
+Jim Murphy,Len Mccluskey,419,Undirected,0.00340315
+Harriet Harman,Tom Watson,417,Undirected,0.003386906
+Jeremy Corbyn,Tom Watson,411,Undirected,0.003338173
+David Cameron,Nick Clegg,411,Undirected,0.003338173
+People Assembly Against Austerity,Reuters,30,Undirected,0.003318161
+David Miliband,Tony Blair,403,Undirected,0.003273196
+Ed Miliband,Reuters,118,Undirected,0.003258749
+Ed Miliband,Facebook,117,Undirected,0.003231133
+Scottish Parliament,Twitter,29,Undirected,0.003207556
+Reuters,Scottish National Party,29,Undirected,0.003207556
+Ben Bradshaw,Supreme Court,116,Undirected,0.003203516
+Dan Jarvis,David Miliband,394,Undirected,0.003200098
+Diane Abbott,Ed Miliband,392,Undirected,0.003183854
+Andy Burnham,Green Party,115,Undirected,0.0031759
+Harriet Harman,Labour Party,114,Undirected,0.003148283
+David Cameron,Diane Abbott,385,Undirected,0.003126999
+Andy Burnham,Hilary Benn,383,Undirected,0.003110755
+Jeremy Corbyn,Queen Mary University Of London,112,Undirected,0.00309305
+David Cameron,Office For Budget Responsibility,112,Undirected,0.00309305
+David Miliband,Jeremy Corbyn,380,Undirected,0.003086389
+Harriet Harman,Opening Of Parliament,111,Undirected,0.003065434
+Ed Miliband,Institute For Fiscal Studies,111,Undirected,0.003065434
+Liz Kendall,Opening Of Parliament,111,Undirected,0.003065434
+Ed Miliband,Nick Clegg,375,Undirected,0.003045778
+Hilary Benn,Opening Of Parliament,109,Undirected,0.0030102
+Andy Burnham,Associated Press,109,Undirected,0.0030102
+Associated Press,Labour Party,27,Undirected,0.002986345
+Scottish National Party,Twitter,27,Undirected,0.002986345
+Diane Abbott,Liz Kendall,360,Undirected,0.002923947
+European Union,National Health Service,26,Undirected,0.00287574
+Labour Party,Twitter,26,Undirected,0.00287574
+Chris Leslie,Labour Party,104,Undirected,0.002872118
+Chuka Umunna,Scottish National Party,104,Undirected,0.002872118
+Tom Watson,Tony Blair,352,Undirected,0.002858971
+David Cameron,Nigel Farage,352,Undirected,0.002858971
+Ed Miliband,Vernon Coaker,351,Undirected,0.002850849
+David Cameron,Opening Of Parliament,103,Undirected,0.002844501
+Gordon Brown,Tom Watson,348,Undirected,0.002826482
+Jeremy Corbyn,Stella Creasy,348,Undirected,0.002826482
+Mary Creagh,Office For Budget Responsibility,102,Undirected,0.002816885
+Andy Burnham,Labour Party,102,Undirected,0.002816885
+Dan Jarvis,John Mann,343,Undirected,0.002785872
+Andy Burnham,Margaret Beckett,343,Undirected,0.002785872
+Margaret Thatcher,National Health Service,100,Undirected,0.002761652
+Dan Jarvis,Tom Watson,340,Undirected,0.002761506
+Harriet Harman,John Mann,340,Undirected,0.002761506
+Chuka Umunna,John Mann,339,Undirected,0.002753384
+Andy Burnham,Chris Leslie,339,Undirected,0.002753384
+David Cameron,John Mann,338,Undirected,0.002745262
+Nick Clegg,Scottish National Party,99,Undirected,0.002734035
+Chuka Umunna,Facebook,99,Undirected,0.002734035
+Nick Clegg,Opening Of Parliament,99,Undirected,0.002734035
+John Prescott,Liz Kendall,334,Undirected,0.002712773
+David Cameron,Royal Bank,98,Undirected,0.002706419
+Jim Murphy,Office For Budget Responsibility,98,Undirected,0.002706419
+John Prescott,Tony Blair,333,Undirected,0.002704651
+George Osborne,Twitter,97,Undirected,0.002678802
+Margaret Thatcher,People Assembly Against Austerity,97,Undirected,0.002678802
+Jeremy Corbyn,Vernon Coaker,329,Undirected,0.002672163
+Chuka Umunna,Stella Creasy,328,Undirected,0.002664041
+National Health Service,Scottish National Party,24,Undirected,0.002654529
+Margaret Thatcher,Royal Bank,96,Undirected,0.002651186
+Nigel Farage,Twitter,95,Undirected,0.002623569
+David Bowie,People Assembly Against Austerity,95,Undirected,0.002623569
+Len Mccluskey,Mary Creagh,323,Undirected,0.00262343
+Hilary Benn,Stella Creasy,322,Undirected,0.002615308
+Chris Leslie,Liz Kendall,321,Undirected,0.002607186
+George Osborne,Green Party,94,Undirected,0.002595953
+Stella Creasy,Twitter,94,Undirected,0.002595953
+Chris Leslie,Ed Miliband,317,Undirected,0.002574698
+Liz Kendall,Rachel Reeves,316,Undirected,0.002566576
+Associated Press,Supreme Court,23,Undirected,0.002543923
+David Miliband,Stella Creasy,313,Undirected,0.00254221
+Nigel Farage,Scottish National Party,92,Undirected,0.00254072
+Jim Murphy,Mary Creagh,312,Undirected,0.002534088
+John Mann,Tony Blair,312,Undirected,0.002534088
+Diane Abbott,George Osborne,312,Undirected,0.002534088
+Harriet Harman,Jim Murphy,312,Undirected,0.002534088
+Ed Miliband,Margaret Hodge,311,Undirected,0.002525965
+Alastair Campbell,Andy Burnham,310,Undirected,0.002517843
+John Mann,Tom Watson,309,Undirected,0.002509721
+Alastair Campbell,Ed Miliband,309,Undirected,0.002509721
+Jeremy Corbyn,Margaret Hodge,307,Undirected,0.002493477
+Andy Burnham,International Rescue Committee,90,Undirected,0.002485487
+Chuka Umunna,Queen Mary University Of London,90,Undirected,0.002485487
+Diane Abbott,Harriet Harman,304,Undirected,0.002469111
+Jim Murphy,Queen Mary University Of London,89,Undirected,0.00245787
+Liz Kendall,Reuters,89,Undirected,0.00245787
+Boris Johnson,Green Party,89,Undirected,0.00245787
+Andy Burnham,Margaret Hodge,302,Undirected,0.002452867
+Jeremy Corbyn,Len Mccluskey,301,Undirected,0.002444745
+Andy Burnham,Sadiq Khan,301,Undirected,0.002444745
+Liz Kendall,Margaret Hodge,301,Undirected,0.002444745
+Boris Johnson,David Cameron,301,Undirected,0.002444745
+Ed Miliband,Nigel Farage,300,Undirected,0.002436623
+Green Party,People Assembly,22,Undirected,0.002433318
+Boris Johnson,Labour Party,88,Undirected,0.002430254
+Harriet Harman,Queen Mary University Of London,88,Undirected,0.002430254
+Len Mccluskey,Queen Mary University Of London,88,Undirected,0.002430254
+Harriet Harman,Hilary Benn,297,Undirected,0.002412256
+Liz Kendall,Sadiq Khan,295,Undirected,0.002396012
+Chuka Umunna,Margaret Beckett,293,Undirected,0.002379768
+Andy Burnham,John Prescott,291,Undirected,0.002363524
+Ed Miliband,International Rescue Committee,85,Undirected,0.002347404
+Alastair Campbell,Chuka Umunna,289,Undirected,0.00234728
+Andy Burnham,Nigel Farage,288,Undirected,0.002339158
+Douglas Alexander,Ed Miliband,288,Undirected,0.002339158
+Ed Miliband,Sadiq Khan,286,Undirected,0.002322914
+Andy Burnham,Caroline Flint,286,Undirected,0.002322914
+European Parliament,Labour Party,21,Undirected,0.002322713
+Green Party,National Health Service,21,Undirected,0.002322713
+Andy Burnham,CNN,84,Undirected,0.002319788
+Boris Johnson,Scottish National Party,84,Undirected,0.002319788
+Jim Murphy,Tony Blair,284,Undirected,0.002306669
+Gordon Brown,Margaret Beckett,284,Undirected,0.002306669
+Caroline Lucas,Green Party,83,Undirected,0.002292171
+Chuka Umunna,George Osborne,280,Undirected,0.002274181
+Chuka Umunna,Jim Murphy,280,Undirected,0.002274181
+Andy Burnham,John Smith,279,Undirected,0.002266059
+Alastair Campbell,Liz Kendall,277,Undirected,0.002249815
+Alan Johnson,Margaret Beckett,277,Undirected,0.002249815
+Jeremy Corbyn,Sadiq Khan,277,Undirected,0.002249815
+David Miliband,International Rescue Committee,81,Undirected,0.002236938
+Ed Miliband,Labour Party,81,Undirected,0.002236938
+John Smith,Liz Kendall,271,Undirected,0.002201082
+Caroline Flint,Tom Watson,271,Undirected,0.002201082
+David Cameron,Sadiq Khan,270,Undirected,0.00219296
+Caroline Lucas,European Union,79,Undirected,0.002181705
+Jeremy Corbyn,Reuters,79,Undirected,0.002181705
+Gordon Brown,Office For Budget Responsibility,79,Undirected,0.002181705
+Alastair Campbell,David Miliband,268,Undirected,0.002176716
+Alan Johnson,Tony Blair,266,Undirected,0.002160472
+Caroline Flint,Liz Kendall,265,Undirected,0.00215235
+Chris Leslie,David Miliband,263,Undirected,0.002136106
+Gordon Brown,Prince Regeneration,77,Undirected,0.002126472
+John Prescott,Labour Party,77,Undirected,0.002126472
+Gordon Brown,My Regeneration,77,Undirected,0.002126472
+David Cameron,Jim Murphy,261,Undirected,0.002119862
+Chris Leslie,Stella Creasy,261,Undirected,0.002119862
+Ed Miliband,Rachel Reeves,260,Undirected,0.00211174
+European Union,Facebook,19,Undirected,0.002101502
+Andy Burnham,Julie Bailey,257,Undirected,0.002087373
+Andy Burnham,Douglas Alexander,257,Undirected,0.002087373
+Caroline Lucas,Scottish National Party,75,Undirected,0.002071239
+David Cameron,Foreign Office,75,Undirected,0.002071239
+Harriet Harman,Len Mccluskey,254,Undirected,0.002063007
+Harriet Harman,John Smith,253,Undirected,0.002054885
+Harriet Harman,Stella Creasy,252,Undirected,0.002046763
+John Smith,Mary Creagh,252,Undirected,0.002046763
+Julie Bailey,Liz Kendall,251,Undirected,0.002038641
+Julie Bailey,Mary Creagh,250,Undirected,0.002030519
+Mary Creagh,Sadiq Khan,250,Undirected,0.002030519
+John Smith,Tony Blair,250,Undirected,0.002030519
+Alastair Campbell,Tom Watson,249,Undirected,0.002022397
+Caroline Flint,Ed Miliband,245,Undirected,0.001989909
+Ben Bradshaw,Labour Party,72,Undirected,0.001988389
+Dame Margaret Beckett,Harriet Harman,244,Undirected,0.001981786
+Dame Margaret Beckett,Liz Kendall,243,Undirected,0.001973664
+Andy Burnham,Dame Margaret Beckett,243,Undirected,0.001973664
+John Smith,Julie Bailey,243,Undirected,0.001973664
+Harriet Harman,Julie Bailey,242,Undirected,0.001965542
+Dame Margaret Beckett,John Smith,242,Undirected,0.001965542
+Dame Margaret Beckett,Julie Bailey,242,Undirected,0.001965542
+Dame Margaret Beckett,Mary Creagh,242,Undirected,0.001965542
+John Prescott,Mary Creagh,242,Undirected,0.001965542
+Margaret Hodge,Office For Budget Responsibility,71,Undirected,0.001960773
+David Bowie,Jeremy Corbyn,240,Undirected,0.001949298
+Harriet Harman,John Prescott,239,Undirected,0.001941176
+David Miliband,Office For Budget Responsibility,70,Undirected,0.001933156
+Jim Murphy,Rachel Reeves,237,Undirected,0.001924932
+George Osborne,Tom Watson,236,Undirected,0.00191681
+Chuka Umunna,Douglas Alexander,235,Undirected,0.001908688
+Andy Burnham,Foreign Office,69,Undirected,0.00190554
+John Mann,Office For Budget Responsibility,69,Undirected,0.00190554
+David Cameron,Labour Party,69,Undirected,0.00190554
+Chris Leslie,Office For Budget Responsibility,69,Undirected,0.00190554
+National Executive Committee,Labour Party,17,Undirected,0.001880291
+George Osborne,People Assembly Against Austerity,68,Undirected,0.001877923
+Len Mccluskey,Rachel Reeves,229,Undirected,0.001859955
+Mary Creagh,Twitter,67,Undirected,0.001850307
+Alan Johnson,My Regeneration,67,Undirected,0.001850307
+Alan Johnson,Prince Regeneration,67,Undirected,0.001850307
+David Cameron,Facebook,67,Undirected,0.001850307
+David Miliband,Mary Creagh,227,Undirected,0.001843711
+Stella Creasy,Tom Watson,226,Undirected,0.001835589
+Julie Bailey,Tony Blair,225,Undirected,0.001827467
+Ben Bradshaw,My Regeneration,66,Undirected,0.00182269
+Alan Johnson,Labour Party,66,Undirected,0.00182269
+Ed Miliband,Green Mps In Parliament,65,Undirected,0.001795074
+David Cameron,Green Mps In Parliament,65,Undirected,0.001795074
+Caroline Lucas,Green Mps In Parliament,65,Undirected,0.001795074
+Boris Johnson,Green Mps In Parliament,65,Undirected,0.001795074
+Andy Burnham,Investment Partnership,65,Undirected,0.001795074
+Ben Bradshaw,Prince Regeneration,65,Undirected,0.001795074
+John Prescott,Julie Bailey,221,Undirected,0.001794979
+Nick Clegg,Nigel Farage,219,Undirected,0.001778735
+Douglas Alexander,Harriet Harman,218,Undirected,0.001770612
+Reuters,Twitter,16,Undirected,0.001769686
+Harriet Harman,National Insurance,64,Undirected,0.001767457
+George Osborne,Labour Party,64,Undirected,0.001767457
+Dame Margaret Beckett,Tony Blair,216,Undirected,0.001754368
+Andy Burnham,Vernon Coaker,215,Undirected,0.001746246
+Ed Miliband,Opening Of Parliament,63,Undirected,0.001739841
+Andy Burnham,Charlotte Church,63,Undirected,0.001739841
+Alan Johnson,Ed Miliband,214,Undirected,0.001738124
+John Prescott,John Smith,214,Undirected,0.001738124
+Dame Margaret Beckett,John Prescott,212,Undirected,0.00172188
+George Osborne,National Insurance,62,Undirected,0.001712224
+Boris Johnson,Twitter,62,Undirected,0.001712224
+Jeremy Corbyn,National Insurance,62,Undirected,0.001712224
+David Cameron,Investment Partnership,62,Undirected,0.001712224
+Boris Johnson,Ed Miliband,208,Undirected,0.001689392
+Liz Kendall,Vernon Coaker,208,Undirected,0.001689392
+Harriet Harman,Nick Clegg,208,Undirected,0.001689392
+Chuka Umunna,Len Mccluskey,208,Undirected,0.001689392
+Dan Jarvis,European Union,61,Undirected,0.001684608
+Andy Burnham,Ben Bradshaw,207,Undirected,0.00168127
+Alastair Campbell,Tony Blair,205,Undirected,0.001665025
+Caroline Lucas,Jeremy Corbyn,205,Undirected,0.001665025
+National Living Wage,Office For Budget Responsibility,15,Undirected,0.00165908
+National Living Wage,Twitter,15,Undirected,0.00165908
+European Parliament,European Union,15,Undirected,0.00165908
+Chris Leslie,Chuka Umunna,202,Undirected,0.001640659
+Jeremy Corbyn,Sam Fairbairn,202,Undirected,0.001640659
+Nick Clegg,Twitter,59,Undirected,0.001629375
+David Cameron,Margaret Thatcher,200,Undirected,0.001624415
+Len Mccluskey,Tony Blair,197,Undirected,0.001600049
+Chuka Umunna,Jeremy Corbyn,196,Undirected,0.001591927
+Caroline Flint,Chuka Umunna,195,Undirected,0.001583805
+Margaret Beckett,Mary Creagh,193,Undirected,0.001567561
+Alastair Campbell,David Cameron,192,Undirected,0.001559439
+Dan Jarvis,Mary Creagh,191,Undirected,0.001551316
+Facebook,Green Party,14,Undirected,0.001548475
+Facebook,People Assembly,14,Undirected,0.001548475
+Office For Budget Responsibility,Twitter,14,Undirected,0.001548475
+National Health Service,Twitter,14,Undirected,0.001548475
+Green Mps In Parliament,Labour Party,14,Undirected,0.001548475
+CNN,European Union,14,Undirected,0.001548475
+Liz Kendall,Nick Clegg,190,Undirected,0.001543194
+Hilary Benn,Jeremy Corbyn,189,Undirected,0.001535072
+Alastair Campbell,Harriet Harman,189,Undirected,0.001535072
+Mary Creagh,Tom Watson,189,Undirected,0.001535072
+Alan Johnson,Dan Jarvis,187,Undirected,0.001518828
+Douglas Alexander,Liz Kendall,187,Undirected,0.001518828
+Ben Bradshaw,Caroline Flint,186,Undirected,0.001510706
+Caroline Flint,Mary Creagh,186,Undirected,0.001510706
+Chris Leslie,Harriet Harman,186,Undirected,0.001510706
+Liz Kendall,Ed Miliband,185,Undirected,0.001502584
+Len Mccluskey,Sam Fairbairn,184,Undirected,0.001494462
+Andy Burnham,National Insurance,54,Undirected,0.001491292
+Andy Burnham,Nick Clegg,183,Undirected,0.00148634
+Mary Creagh,Rachel Reeves,183,Undirected,0.00148634
+Ben Bradshaw,Liz Kendall,183,Undirected,0.00148634
+Diane Abbott,Mary Creagh,182,Undirected,0.001478218
+George Osborne,Parliamentary Standards Authority,53,Undirected,0.001463675
+John Prescott,Labour Party,53,Undirected,0.001463675
+Chuka Umunna,Hilary Benn,179,Undirected,0.001453852
+Labour Party,Supreme Court,13,Undirected,0.00143787
+British Medical Association,National Insurance,13,Undirected,0.00143787
+Andy Burnham,National Health Service,52,Undirected,0.001436059
+Chuka Umunna,Reuters,52,Undirected,0.001436059
+Caroline Flint,Labour Party,52,Undirected,0.001436059
+Alan Johnson,Andy Burnham,176,Undirected,0.001429485
+Hilary Benn,Margaret Hodge,176,Undirected,0.001429485
+Douglas Alexander,Hilary Benn,175,Undirected,0.001421363
+Hilary Benn,Vernon Coaker,174,Undirected,0.001413241
+Chris Leslie,Hilary Benn,174,Undirected,0.001413241
+Alastair Campbell,Gordon Brown,174,Undirected,0.001413241
+George Osborne,International Development,51,Undirected,0.001408442
+Caroline Flint,Supreme Court,51,Undirected,0.001408442
+Andy Burnham,Supreme Court,51,Undirected,0.001408442
+David Miliband,Douglas Alexander,172,Undirected,0.001396997
+Douglas Alexander,European Union,50,Undirected,0.001380826
+Liz Kendall,National Insurance,50,Undirected,0.001380826
+Gordon Brown,Stella Creasy,169,Undirected,0.001372631
+Caroline Lucas,Len Mccluskey,169,Undirected,0.001372631
+Chris Leslie,Douglas Alexander,169,Undirected,0.001372631
+Gordon Brown,Jim Murphy,169,Undirected,0.001372631
+Jeremy Corbyn,Kate Hudson,167,Undirected,0.001356387
+Kate Hudson,Len Mccluskey,167,Undirected,0.001356387
+David Cameron,Vernon Coaker,167,Undirected,0.001356387
+David Cameron,Scottish Parliament,49,Undirected,0.001353209
+Diane Abbott,Sadiq Khan,166,Undirected,0.001348265
+Caroline Flint,Jeremy Corbyn,165,Undirected,0.001340142
+Jeremy Corbyn,Margaret Thatcher,165,Undirected,0.001340142
+Caroline Lucas,Sam Fairbairn,164,Undirected,0.00133202
+Harriet Harman,Rachel Reeves,164,Undirected,0.00133202
+Alastair Campbell,Dan Jarvis,164,Undirected,0.00133202
+Margaret Hodge,Vernon Coaker,164,Undirected,0.00133202
+Alan Johnson,David Cameron,163,Undirected,0.001323898
+David Miliband,Hilary Benn,162,Undirected,0.001315776
+Ben Bradshaw,Ed Miliband,161,Undirected,0.001307654
+Kate Hudson,Sam Fairbairn,161,Undirected,0.001307654
+Douglas Alexander,Stella Creasy,160,Undirected,0.001299532
+George Osborne,Scottish Parliament,47,Undirected,0.001297976
+Andy Burnham,Yvette Cooper,7371,Undirected,0.059867819
+Liz Kendall,Yvette Cooper,6914,Undirected,0.05615603
+Ed Miliband,Yvette Cooper,5252,Undirected,0.042657141
+National Health Service,Union Jack,240,Undirected,0.026545288
+Royal Bank,Union Jack,239,Undirected,0.026434682
+Charlotte Church,Union Jack,237,Undirected,0.026213472
+Parliament Square,Union Jack,228,Undirected,0.025218023
+Jeremy Corbyn,Yvette Cooper,2752,Undirected,0.022351952
+David Cameron,Yvette Cooper,2688,Undirected,0.021832139
+Harriet Harman,Yvette Cooper,2607,Undirected,0.021174251
+Mary Creagh,Yvette Cooper,2486,Undirected,0.02019148
+Labour Party,Public Accounts Committee,173,Undirected,0.019134728
+Labour Party,Welsh Assembly,172,Undirected,0.019024123
+Campaign For Nuclear Disarmament,War Coalition,168,Undirected,0.018581701
+Chuka Umunna,Yvette Cooper,2209,Undirected,0.017941665
+People Assembly,War Coalition,162,Undirected,0.017918069
+Scottish Parliament,Welsh Assembly,160,Undirected,0.017696859
+Charlotte Church,War Coalition,158,Undirected,0.017475648
+Labour Party,War Coalition,148,Undirected,0.016369594
+Tony Blair,Yvette Cooper,1928,Undirected,0.015659362
+British Medical Association,Royal College Of Nursing,113,Undirected,0.012498406
+Gordon Brown,Yvette Cooper,1505,Undirected,0.012223724
+Opening Of Parliament,Royal Commission,109,Undirected,0.012055985
+People Assembly Against Austerity,Union Jack,95,Undirected,0.01050751
+Labour Party,United States,89,Undirected,0.009843878
+Labour Party,Union Congress,89,Undirected,0.009843878
+Queen Mary University Of London,University Of Edinburgh,88,Undirected,0.009733272
+Labour Party,University Of Edinburgh,88,Undirected,0.009733272
+George Osborne,Yvette Cooper,1195,Undirected,0.00970588
+Labour Party,Shadow Health,82,Undirected,0.00906964
+David Miliband,Yvette Cooper,1076,Undirected,0.008739353
+Charlotte Church,Union Congress,61,Undirected,0.006746927
+Green Party,Union Congress,61,Undirected,0.006746927
+Jeremy Corbyn,Union Jack,242,Undirected,0.006683197
+David Bowie,Union Jack,240,Undirected,0.006627964
+Dan Jarvis,Yvette Cooper,786,Undirected,0.006383951
+IPCC,Police Complaints Commission,57,Undirected,0.006304506
+Labour Party,National Union Of Students,56,Undirected,0.0061939
+Andy Burnham,Shadow Health,222,Undirected,0.006130867
+People Assembly Against Austerity,Union Congress,53,Undirected,0.005862084
+European Union,Yougov,53,Undirected,0.005862084
+Tom Watson,Yvette Cooper,717,Undirected,0.005823528
+Stella Creasy,Yvette Cooper,696,Undirected,0.005652965
+Jeremy Corbyn,War Coalition,192,Undirected,0.005302371
+National Insurance,National Union Of Students,47,Undirected,0.005198452
+European Union,United States,46,Undirected,0.005087847
+Scottish National Party,Yougov,45,Undirected,0.004977241
+Liz Kendall,Public Accounts Committee,179,Undirected,0.004943357
+Margaret Hodge,Public Accounts Committee,179,Undirected,0.004943357
+Ed Miliband,Public Accounts Committee,178,Undirected,0.00491574
+Andy Burnham,Public Accounts Committee,177,Undirected,0.004888124
+Reuters,Union Congress,44,Undirected,0.004866636
+Green Party,Yougov,44,Undirected,0.004866636
+Hilary Benn,Public Accounts Committee,175,Undirected,0.004832891
+Jeremy Corbyn,Public Accounts Committee,175,Undirected,0.004832891
+Justice Campaign,Police Complaints Commission,43,Undirected,0.004756031
+Len Mccluskey,War Coalition,171,Undirected,0.004722425
+Andy Burnham,Welsh Assembly,170,Undirected,0.004694808
+Ed Miliband,Welsh Assembly,169,Undirected,0.004667192
+Liz Kendall,Welsh Assembly,164,Undirected,0.004529109
+Sam Fairbairn,War Coalition,163,Undirected,0.004501492
+Kate Hudson,War Coalition,162,Undirected,0.004473876
+Jim Murphy,Yvette Cooper,550,Undirected,0.004467142
+Green Mps In Parliament,Yougov,40,Undirected,0.004424215
+Liz Kendall,Shadow Health,155,Undirected,0.00428056
+John Mann,Yvette Cooper,521,Undirected,0.004231601
+Labour Party,United Kingdom Independence Party,38,Undirected,0.004203004
+Len Mccluskey,Yvette Cooper,517,Undirected,0.004199113
+Caroline Lucas,War Coalition,151,Undirected,0.004170094
+Diane Abbott,Yvette Cooper,499,Undirected,0.004052916
+Alex Diaz,Union Jack,141,Undirected,0.003893929
+Hilary Benn,Yvette Cooper,479,Undirected,0.003890474
+Nicky Morgan,Yvette Cooper,466,Undirected,0.003784887
+Chuka Umunna,Labour National Executive Committee,127,Undirected,0.003507298
+Harriet Harman,Labour National Executive Committee,125,Undirected,0.003452065
+Ed Miliband,Shadow Health,125,Undirected,0.003452065
+Labour Party,Yougov,31,Undirected,0.003428766
+Dan Jarvis,Labour National Executive Committee,121,Undirected,0.003341599
+Gordon Brown,Labour National Executive Committee,120,Undirected,0.003313982
+Ed Miliband,Labour National Executive Committee,118,Undirected,0.003258749
+Andy Burnham,Royal College Of Nursing,117,Undirected,0.003231133
+Associated Press,University Of Edinburgh,29,Undirected,0.003207556
+David Cameron,Labour National Executive Committee,116,Undirected,0.003203516
+European Union,United Kingdom Independence Party,28,Undirected,0.00309695
+Nick Clegg,Yvette Cooper,379,Undirected,0.003078267
+Hilary Benn,Royal Commission,109,Undirected,0.0030102
+Harriet Harman,Royal Commission,109,Undirected,0.0030102
+Liz Kendall,Royal Commission,109,Undirected,0.0030102
+Scottish National Party,United Kingdom Independence Party,27,Undirected,0.002986345
+Twitter,United States,27,Undirected,0.002986345
+Alan Johnson,Labour National Executive Committee,105,Undirected,0.002899734
+Margaret Beckett,Yvette Cooper,351,Undirected,0.002850849
+Rachel Reeves,Yvette Cooper,347,Undirected,0.00281836
+Andy Burnham,United States,100,Undirected,0.002761652
+Caroline Flint,Yvette Cooper,340,Undirected,0.002761506
+Nick Clegg,Royal Commission,99,Undirected,0.002734035
+Chris Leslie,Yvette Cooper,336,Undirected,0.002729017
+David Cameron,Union Jack,98,Undirected,0.002706419
+David Cameron,Royal Commission,97,Undirected,0.002678802
+Margaret Thatcher,Union Jack,95,Undirected,0.002623569
+Ben Bradshaw,Yvette Cooper,319,Undirected,0.002590942
+Alastair Campbell,Yvette Cooper,310,Undirected,0.002517843
+Andy Burnham,University Of Edinburgh,90,Undirected,0.002485487
+Jim Murphy,University Of Edinburgh,89,Undirected,0.00245787
+Margaret Hodge,Yvette Cooper,300,Undirected,0.002436623
+Gordon Brown,University Of Edinburgh,88,Undirected,0.002430254
+Chuka Umunna,University Of Edinburgh,88,Undirected,0.002430254
+Liz Kendall,University Of Edinburgh,88,Undirected,0.002430254
+Len Mccluskey,University Of Edinburgh,88,Undirected,0.002430254
+Ed Miliband,University Of Edinburgh,88,Undirected,0.002430254
+Tony Blair,University Of Edinburgh,88,Undirected,0.002430254
+Sadiq Khan,Yvette Cooper,299,Undirected,0.002428501
+Harriet Harman,University Of Edinburgh,87,Undirected,0.002402637
+Jeremy Corbyn,United States,86,Undirected,0.002375021
+Douglas Alexander,Yvette Cooper,292,Undirected,0.002371646
+Twitter,United Kingdom Independence Party,21,Undirected,0.002322713
+Nigel Farage,Yvette Cooper,284,Undirected,0.002306669
+John Smith,Yvette Cooper,283,Undirected,0.002298547
+Boris Johnson,Yvette Cooper,280,Undirected,0.002274181
+David Cameron,Union Congress,82,Undirected,0.002264554
+Ed Miliband,Yougov,81,Undirected,0.002236938
+Alan Johnson,Yvette Cooper,273,Undirected,0.002217327
+David Cameron,Yougov,79,Undirected,0.002181705
+John Prescott,Yvette Cooper,268,Undirected,0.002176716
+David Cameron,United States,75,Undirected,0.002071239
+Julie Bailey,Yvette Cooper,252,Undirected,0.002046763
+Green Party,United States,18,Undirected,0.001990897
+Facebook,United States,18,Undirected,0.001990897
+Dame Margaret Beckett,Yvette Cooper,244,Undirected,0.001981786
+Jeremy Corbyn,Union Congress,71,Undirected,0.001960773
+Liz Kendall,United States,66,Undirected,0.00182269
+Chuka Umunna,Shadow Health,65,Undirected,0.001795074
+Ed Miliband,United States,64,Undirected,0.001767457
+George Osborne,Union Congress,64,Undirected,0.001767457
+Vernon Coaker,Yvette Cooper,217,Undirected,0.00176249
+Ed Miliband,Royal Commission,62,Undirected,0.001712224
+Supreme Court,United States,15,Undirected,0.00165908
+National Health Service,United Kingdom Independence Party,15,Undirected,0.00165908
+National Health Service,United States,15,Undirected,0.00165908
+Scottish National Party,United States,15,Undirected,0.00165908
+Boris Johnson,Yougov,60,Undirected,0.001656991
+Nigel Farage,Yougov,58,Undirected,0.001601758
+Jeremy Corbyn,Shadow Health,58,Undirected,0.001601758
+Nick Clegg,Yougov,58,Undirected,0.001601758
+Andy Burnham,United Kingdom Independence Party,58,Undirected,0.001601758
+Ed Miliband,United Kingdom Independence Party,57,Undirected,0.001574142
+Reuters,United States,14,Undirected,0.001548475
+Andy Burnham,National Union Of Students,54,Undirected,0.001491292
+Foreign Office,United States,13,Undirected,0.00143787
+George Osborne,National Union Of Students,51,Undirected,0.001408442
+Mary Creagh,Shadow Health,50,Undirected,0.001380826
+Tony Blair,United States,50,Undirected,0.001380826
+Liz Kendall,National Union Of Students,49,Undirected,0.001353209
+David Cameron,Shadow Health,48,Undirected,0.001325593
