@@ -1,0 +1,308 @@
+import sys
+sys.path.append('C:\\Python34\\Lib\\site-packages')
+import os
+os.chdir('C:\\Users\\Iain\\Google Drive\\Github\\Professional\\Data Incubator\\June 2015 Application Project')
+import itertools
+import gzip
+import requests
+import sunlight
+import numpy as np
+import scipy as sp
+import pandas as pd
+import matplotlib.pyplot as plt
+import math
+import statistics as stat
+import httplib2
+from apiclient.discovery import build
+from oauth2client.client import flow_from_clientsecrets
+from oauth2client.file import Storage
+from oauth2client import tools
+
+sunshineapi = "<api key redacted for code sharing>"
+####
+### Start by grabbing a list of US legislators:
+
+legislators = pd.read_csv('http://unitedstates.sunlightfoundation.com/legislators/legislators.csv')
+
+# Custom functions for extracting financial contribution data
+# from the Sunlight Foundation contribution aggregates api 
+# (http://data.influenceexplorer.com/api/aggregates/contributions/):
+
+def get_id(crp_id):
+    endpoint = 'http://transparencydata.com/api/1.0/entities/id_lookup.json'
+    query_params = {'apikey': sunshineapi,
+                    'namespace': 'urn:crp:recipient',
+                    'id': crp_id
+                    }                    
+    data = requests.get( endpoint, params=query_params).json()
+    if data == []:
+        return 'No_id'
+    return data[0]['id']
+
+def get_by_sector(crp_id):
+    finance_id = get_id(crp_id)
+    endpoint = 'http://transparencydata.com/api/1.0/aggregates/pol/'+finance_id+'/contributors/sectors.json'
+    query_params = {'apikey': sunshineapi}                    
+    data = requests.get( endpoint, params=query_params).json()
+    return data
+    
+def get_by_contributor(crp_id,limit=100):
+    finance_id = get_id(crp_id)
+    endpoint = 'http://transparencydata.com/api/1.0/aggregates/pol/'+finance_id+'/contributors.json'
+    query_params = {'apikey': sunshineapi,
+                    'limit': limit
+                   }                    
+    try:
+        data = requests.get( endpoint, params=query_params).json()
+    except:
+        print('Json parse error! crp_id =',crp_id)
+        return    
+    return data
+  
+####
+# USING VOTING & FUNDING RECORDS TO TARGET INFLUENCE
+
+# Grabs a list of legislators from the Sunlight Foundation.
+# For each legislator in the database, use the contribution 
+# aggregates api to find all their declared contributions:
+
+legislators = pd.read_csv('http://unitedstates.sunlightfoundation.com/legislators/legislators.csv')
+contributions = pd.DataFrame()
+
+n = legislators.shape[0]
+
+for i in range(a+1,n):
+    crp_id = legislators.iloc[i]['crp_id']
+    contrib_df = pd.DataFrame(get_by_contributor(crp_id))
+    contrib_df['crp_id'] = pd.Series(crp_id, index=contrib_df.index)
+    contributions = contributions.append(contrib_df)
+
+contributions.to_csv('contributions.csv')
+
+### Get voting records from GovTrack API:
+
+def get_vote(congress=114,session=2015,chamber='h',votenum=319):
+    c = str(congress)
+    s = str(session)
+    vote = chamber+str(votenum)
+    endpoint = 'https://www.govtrack.us/data/congress/'+c+'/votes/'+s+'/'+vote+'/data.json'
+    data = requests.get( endpoint).json()
+    if data == []:
+        return
+    return data['votes']
+
+def get_votelist(congress=114,session=2015,chamber='house'):
+    endpoint = 'http://congress.api.sunlightfoundation.com/votes?'
+    query_params = {'apikey': sunshineapi,
+                    'chamber':chamber,
+                    'year':session,
+                    'congress':congress,
+                    'per_page':1
+                    }                    
+    data = requests.get( endpoint, params=query_params).json()
+    runs = math.ceil(data['count']/50)
+    votelist = []
+    
+    for i in range(runs):
+        query_params = {'apikey': sunshineapi,
+                        'chamber':chamber,
+                        'year':session,
+                        'congress':congress,
+                        'per_page':50,
+                        'page':i
+                        }
+        data = requests.get( endpoint, params=query_params).json()
+        tmp = [result['number'] for result in data['results']]
+        votelist += tmp
+        
+    votelist = list(set(votelist))
+
+    return votelist
+
+### Get full 2015 voting vectors for every legislator in congress:
+
+is_current = legislators['in_office']==True
+is_congress = legislators['title']=='Rep'
+current_reps = legislators[is_current & is_congress]
+
+vote_record = []
+votes = get_votelist(congress=114,session=2015,chamber='house')
+
+for votenum in range(len(votes)):
+    vote = votes[votenum]
+    data = get_vote(114,2015,'h',vote)
+    tmp = dict()
+    try:
+        for aye in data['Aye']:
+            tmp[aye['id']]= 1
+    except:
+        pass
+    try:
+        for nay in data['No']:
+            tmp[nay['id']]= -1
+    except:
+        pass
+    try:
+        for nay in data['Nay']:
+            tmp[nay['id']]= -1
+    except:
+        pass
+    try:
+        for nv in data['Not Voting']:
+            tmp[nv['id']]= 0
+    except:
+        pass
+    try:
+        for pres in data['Present']:
+            tmp[pres['id']]= 0
+    except:
+        pass
+    
+    vote_record.append(tmp)
+
+### Normalise (z-score) the votes and calculate correlation proximity:
+
+a = pd.DataFrame(vote_record).fillna(0)
+from scipy import stats
+s = stats.zscore(pd.np.array(a), axis=1, ddof=1)
+normalised = s[~np.isnan(s).any(axis=1)]
+from scipy import spatial
+dist_mat = (2-spatial.distance.pdist(normalised.T,'correlation'))/2.
+
+### Prepare a csv from the table of all edges, to create a graph in Gephi:
+
+name_1 = []
+name_2 = []
+
+legislators['fullname'] = legislators['firstname']+" "+legislators['lastname']
+id_to_name = dict(zip(legislators['bioguide_id'],legislators['fullname']))
+
+for (i,j) in itertools.combinations(a.columns,2): #vote_record[0].keys():
+    name_1.append(id_to_name[i])
+    name_2.append(id_to_name[j])
+
+legislator_network = pd.DataFrame({'Source':name_1,'Target':name_2,'Weight':dist_mat.tolist()})
+legislator_network['Type']="Undirected"
+legislator_network.to_csv("legislator_network.csv")
+
+####
+# USING MEDIA REPORTS TO MAP POLITICAL RELATIONSHIPS
+
+### BigQuery Authorisation. Code adapted from www.googleapis.com.
+
+PROJECT_NUMBER = '<project number redacted for code sharing>'
+FLOW = flow_from_clientsecrets('client_secrets.json',
+                               scope='https://www.googleapis.com/auth/bigquery')
+storage = Storage('bigquery_credentials.dat')
+credentials = storage.get()
+if credentials is None or credentials.invalid:
+    credentials = tools.run_flow(FLOW, storage, tools.argparser.parse_args([]))
+http = httplib2.Http()
+http = credentials.authorize(http)
+bigquery_service = build('bigquery', 'v2', http=http)
+
+
+### Function Definitions for query generation and easier handling of the api
+
+def people_graph_query(person,start=20150701,end=20150714,limit=300,querytype="people"):
+    '''
+    Generates a BigQuery command string to find linked pairs of names
+    in news articles between start and end which contain person.
+    Query should return a table of name-name pairs ordered by number
+    of times they appear together.
+    The argument person should be a string, or a list/tuple of strings.
+    In the latter case the query will search for any of the listed
+    people in "persons" when generating common pairs.
+    '''
+    if (querytype == "organizations"):
+        atype = "V2Organizations"
+        btype = "V2Organizations"
+        count_once = "WHERE a.name<b.name "
+        
+    elif (querytype == "people"):
+        atype = "V2Persons"
+        btype = "V2Persons"
+        count_once = "WHERE a.name<b.name "
+        
+    else:
+        atype = "V2Persons"
+        btype = "V2Organizations"
+        count_once = ""
+    
+    if (type(person) == str):
+        n = "V2Persons like '%"+person+"%'"
+    else:
+        n = "(V2Persons like '%"+("%' or V2Persons like '%").join(person)+"%')"
+    
+            
+    s = str(start*1000000)
+    e = str(end*1000000)
+    l = str(limit)
+
+    query = ("SELECT a.name, b.name, COUNT(*) as count "+
+             "FROM (FLATTEN(SELECT GKGRECORDID, "+
+             "UNIQUE(REGEXP_REPLACE(SPLIT("+atype+",';'), r',.*', '')) "+
+             "name FROM [gdelt-bq:gdeltv2.gkg] WHERE DATE>"+s+
+             " and DATE<"+e+" and "+n+",name)) a "+
+             "JOIN EACH (SELECT GKGRECORDID, "+
+             "UNIQUE(REGEXP_REPLACE(SPLIT("+btype+",';'), r',.*', '')) "+
+             "name FROM [gdelt-bq:gdeltv2.gkg] WHERE DATE>"+s+
+             " and DATE<"+e+" and "+n+") b "+
+             "ON a.GKGRECORDID=b.GKGRECORDID "+
+             "WHERE a.name<b.name "+
+             "GROUP EACH BY 1,2 "+
+             "ORDER BY 3 DESC "+
+             "LIMIT "+l)
+    return query
+
+def launch_query(query_string):
+    '''
+    Accepts an SQL-style query_string and run the query using the 
+    BigQuery API. Returns the results of the query (in a dictionary).
+    '''
+    query_data = {'query':query_string,'timeoutMs':20000}
+    query_request = bigquery_service.jobs()
+    query_response = query_request.query(projectId=PROJECT_NUMBER,
+                                         body=query_data).execute()
+    return query_response
+
+def query_to_df(data, csv=False, csv_name=None):
+    '''
+    Converts the parsed json data from dictionary format to nice friendly
+    pandas dataframe.
+    '''
+    df = [[row['f'][i]['v'] for i in range(3)] for row in data['rows']]
+    df = pd.DataFrame(df)
+    if (csv):
+        if csv_name==None:
+            csv_name="default"
+        df.to_csv(csv_name+".csv")
+    return df
+
+### Query the api and extract network data for the UK Labour Party leadership race
+
+contenders = ["Andy Burnham","Yvette Cooper","Jeremy Corbyn","Liz Kendall"]
+
+query_string = people_graph_query(contenders,start=20150508,end=20150719,limit=400,querytype="people")
+data = launch_query(query_string)
+print(data['jobComplete'])
+people_df = query_to_df(data,csv=True,csv_name="people_network")
+
+query_string = people_graph_query(contenders,start=20150508,end=20150719,limit=400,querytype="organizations")
+data = launch_query(query_string)
+print(data['jobComplete'])
+organizations_df = query_to_df(data,csv=True,csv_name="organizations_network")
+
+query_string = people_graph_query(contenders,start=20150508,end=20150719,limit=400,querytype="both")
+data = launch_query(query_string)
+print(data['jobComplete'])
+both_df = query_to_df(data,csv=True,csv_name="both_network")
+
+network=pd.concat([people_df,organizations_df,both_df])
+network.to_csv("full_network.csv")
+
+# full_network.csv can be sent to a graphing utility, such as Gephi.
+
+
+
+
